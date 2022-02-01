@@ -66,7 +66,7 @@ if (user.age > 18 && user.studentstatus==active) {
 else if(user.name=='giorgi') {
     console.log('hello giorgi');
 } 
-else if (user.age < 25 && user.studentstatus==active) {
+else if (user.age < 25 || user.studentstatus==active) {
     console.log('hello world');
 } else {
     console.log('error');
